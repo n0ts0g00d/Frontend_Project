@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharaf Caterers | Contact Us</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "mustafabakrol@gmail.com",
+                Password: "mustu5253",
+                To: 'sharafcaterers@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "Contact form query",
+                Body: "Name :" + document.getElementById("name").value +
+                    "<br> Email :" + document.getElementById("email").value +
+                    "<br> Message :" + document.getElementById(message).value
+            }).then(
+                message => alert("Your Message has been sent successfully !")
+            );
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Sharaf Caterers</h1>
+    </header>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quam, exercitationem.</p>
+        </div>
+
+        <div class="container">
+            <div class="info">
+                <div class="box">
+                    <div class="icon">
+                        <ion-icon name="location"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>32A Sugar factory road,<br>Godhra,Gujarat,<br>389001.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <ion-icon name="call"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+91 9876543210</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>E-mail</h3>
+                        <p>sharafcaterers@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cform">
+                <form onsubmit="sendEmail(); reset();">
+                    <h2>Send Message</h2>
+                    <div class="input">
+                        <input type="text" id="name" required>
+                        <span>Your Name : </span>
+                    </div>
+
+                    <div class="input">
+                        <input type="email" id="email" required>
+                        <span>Your E-mail : </span>
+                    </div>
+
+                    <div class="input">
+                        <textarea id="message"></textarea required>
+                        <span>Write your message here : </span>
+                    </div>
+
+                    <div class="input">
+                        <button type="submit">send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="home.html">Home</a>
+        <a href="faq.html">FAQ</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Refund Policy</a>
+        <a href="#" class="copy">&copy;2022 | Sharaf Caterers</a>
+    </footer>
+</body>
+</html>

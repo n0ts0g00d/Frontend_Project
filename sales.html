@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/sales.css">
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	exportEnabled: true,
+	animationEnabled: true,
+	title:{
+		text: "Our 2022 Sales so Far"
+	},
+	legend:{
+		cursor: "pointer",
+		itemclick: explodePie
+	},
+	data: [{
+		type: "pie",
+		showInLegend: true,
+		toolTipContent: "{name}: <strong>{y}%</strong>",
+		indexLabel: "{name} - {y}%",
+		dataPoints: [
+			{ y: 26, name: "Smokey Cheese Burger", exploded: true },
+			{ y: 20, name: "Daal Baati" },
+			{ y: 5, name: "Burrito" },
+			{ y: 3, name: "Kebab" },
+			{ y: 7, name: "Others" },
+			{ y: 17, name: "Pizza" },
+			{ y: 22, name: "Chicken Sticks"}
+		]
+	}]
+});
+chart.render();
+}
+
+function explodePie (e) {
+	if(typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+		e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+	} else {
+		e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+	}
+	e.chart.render();
+
+}
+</script>
+</head>
+<body>
+    <div><h3>Sharaf Caterers</h3></div>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
