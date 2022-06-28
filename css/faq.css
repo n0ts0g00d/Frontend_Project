@@ -1,0 +1,126 @@
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+    padding: 20px;
+}
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.conatiner{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.items{
+    background-color: white;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0, 0, 0, 0.1);
+}
+.link{
+    color:black;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-size: 25px;
+}
+.link:hover{
+    color: rgb(17, 124, 143);
+}
+ion-icon{
+    padding: 0.5rem;
+}
+.remove{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(17, 124, 143);
+    transition: max-height 650ms;
+    
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: 0.6rem;
+    height: 90%;
+    background-color: #333;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p{
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.items:target .answer{
+    max-height: 20rem;
+}
+.items:target .link .add{
+    display: none;
+}
+.items:target .link .remove{
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  footer a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+  }
+
+  footer a:hover{
+      background-color: darkgrey;
+      border-radius: 5px;
+  }
+  .copy{
+      float: right;
+  }

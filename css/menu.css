@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+          Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menu{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+}
+.head{
+    background-color: rgb(17, 124, 143);
+    color: White;
+    margin-bottom: 30px;
+    padding: 40px;
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.head>h1{
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.head>h3{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.items img{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    height: 320px;
+}
+h1{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.description{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.desc{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.desc>h4{
+    font-size:14px;
+}
+.price{
+    text-align: right;
+}
+.discription>p{
+    color: rgb(195, 219, 240);
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 200;
+    align-self: stretch;
+}
+.add{
+    background-color: rgb(17, 124, 143);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+}
+div{
+    padding: 10px;
+}
+.add:hover{
+    cursor: pointer;
+    background-color: rgb(200, 253, 253);
+    color: black;
+}
+footer{
+    background-color: #333;
+    overflow: hidden;
+}
+footer a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+  
+footer a:hover{
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+.copy{
+    float: right;
+}
