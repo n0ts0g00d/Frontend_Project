@@ -105,7 +105,7 @@ If you have any feedback, please reach out to us at sharafcaterers@gmail.com
 - What did you learn while building this project? 
 
 
-Learned the use of HTML5 and CSS and how can we animate and desgn various web pages using this easily and effectively.
+  Learned the use of HTML5 and CSS and how can we animate and desgn various web pages using this easily and effectively.
 
 
 
