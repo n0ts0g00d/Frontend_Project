@@ -48,7 +48,7 @@ Javascript, HTML, CSS...
 
 ![App Screenshot](https://github.com/n0ts0g00d/Frontend_Project/blob/main/Screenshots/sales.png?raw=true)
 
-* Conatc us :-
+* Contact us :-
 ![App Screenshot](https://github.com/n0ts0g00d/Frontend_Project/blob/main/Screenshots/Contact%20us.png?raw=true)
 ## Run Locally
 
