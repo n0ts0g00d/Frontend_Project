@@ -1,12 +1,12 @@
 
 # Food Catering Website / Frontend only
 
-This repo contains basic Frontend project created using HTML CSS and Javascript.
+- This repo contains basic Frontend project created using HTML CSS and Javascript.
+
+![logo](https://user-images.githubusercontent.com/30186772/66078009-d33fa080-e569-11e9-8052-ae706cc2bdbe.png)
 
 
-
-
-## Pages 
+## 🔗 Pages 
 
 - [Signup](https://github.com/n0ts0g00d/Frontend_Project/blob/main/signup.html)
 - [Login](https://github.com/n0ts0g00d/Frontend_Project/blob/main/login.html)
@@ -21,10 +21,10 @@ This repo contains basic Frontend project created using HTML CSS and Javascript.
 
 
 ## 🛠 Technology used :-
-Javascript, HTML, CSS...
+- Javascript, HTML, CSS...
 
 
-## Screenshots :-
+## 🔗 Screenshots :-
 
 * Register :-
 
@@ -50,7 +50,8 @@ Javascript, HTML, CSS...
 
 * Contact us :-
 ![App Screenshot](https://github.com/n0ts0g00d/Frontend_Project/blob/main/Screenshots/Contact%20us.png?raw=true)
-## Run Locally
+
+## 🔗 Run Locally
 
 Clone the project
 
@@ -68,14 +69,12 @@ Go to the project directory
 
 
 
-## License :-
-
-
+## 🔗 License :-
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/n0ts0g00d/Frontend_Project/blob/main/LICENSE)
 
 
-## Contributing :-
+## 🔗 Contributing :-
 
 Contributions are always welcome!
 
@@ -84,17 +83,17 @@ See `contributing.md` for ways to get started.
 Please adhere to this project's `code of conduct`.
 
 Add your valuable Contributions here.
-## Feedback :-
 
-If you have any feedback, please reach out to us at sharafcaterers@gmail.com
+## 🔗 Feedback :-
 
+- If you have any feedback, please reach out to us at sharafcaterers@gmail.com
 
-## Project Maintainer :-
+## 🔗 Project Maintainer :-
 
 - [@n0ts0g00d](https://github.com/n0ts0g00d)
 
 
-## 🔗  How to reach me :-
+## 🔗 How to reach me :-
  
 [![Telegram](https://img.shields.io/badge/-Telegram-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/mbkrl)
 
@@ -103,7 +102,7 @@ If you have any feedback, please reach out to us at sharafcaterers@gmail.com
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Twitter)](https://twitter.com/MBakrol)
 
 
-## Lessons Learned from this project :-
+## 🔗 Lessons Learned from this project :-
 
 - What did you learn while building this project? 
 
