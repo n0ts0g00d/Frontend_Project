@@ -95,9 +95,12 @@ If you have any feedback, please reach out to us at sharafcaterers@gmail.com
 
 
 ## 🔗  How to reach me :-
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/n0ts0g00d)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mustafa-bakrolwala-30996321b/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/MBakrol)
+ 
+[![Telegram](https://img.shields.io/badge/-Telegram-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/mbkrl)
+
+[![Instagram](https://img.shields.io/badge/-Instagram-red?color=white&logo=instagram&logoColor=pin)](https://www.instagram.com/m_bakrol)
+
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Twitter)](https://twitter.com/MBakrol)
 
 
 ## Lessons Learned from this project :-
